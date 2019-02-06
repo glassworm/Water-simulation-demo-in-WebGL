@@ -1,6 +1,22 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 01fa1577750f731dfb78ca4ae9de26770a5feeeb9e5adbd91e2f4afdca861c68  buffer.js
 1370cb4def2354490a8ad887d8cfba38efe2b8133a91de5f4194936e7cb7d0d7  camera.js
 d7bdfbb214dd236ce23c3dc51b8cdc22a419e0f07aa125edfa5f455c0cb70bc1  matrix.js
 954f54f3a4984238a54c63e4d7ed7db905c7e8fdba1dd48382e79bdba3834865  mesh.js
 f2e080b506a378266c944dec78881362f4d1114e03adbc3c920368638b159a1c  texture.js
 bdb0e6e3b7f8b8e24ddac690bd05c43e8bb30e85e100ff20632f1278b5ef99fe  vector.js
+-----BEGIN PGP SIGNATURE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+wsBcBAABCgAGBQJcWlIPAAoJEBoPc+qdnm93CmQH/jTcXGIcu4+p6wf0bcvhJPqR
+/jqAjBl9zy6hMsi2838e8fnsxlL34sDkS8oMXqacqv0TBV2ZK2NW3H9D3Eg8/h8b
+NdpWC9dRNkBjnRSYek91W5QhVPdrQDyCtMua3Wis4q7LiTUDP42C4vRGl24NXgi4
+xD53127nyf2jX4BEB3/5jZFEd7oFLPxxnA0pIySYk+vj+pV+lIk5kCRRXe2Te66n
+Bu2jTR1XszBxy8Z1IaqPlJEGgTensScutmp8fa8QXCzFfnozepBD//T+8kY/XkDX
+3VhpZFL2j3MDB+0R3ba/QA6RhEExsSiwhPFqS4rNnEGpS6GzqPmGbyauPq8k0sU=
+=diIW
+-----END PGP SIGNATURE-----
+
