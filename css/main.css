@@ -1,0 +1,278 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana;
+  color: #444;
+  background: #8698A8;
+}
+
+h1 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 16pt;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  border-bottom: 1px dotted grey;
+  font-size: 14pt;
+}
+
+dfn {
+  font-weight: bold;
+  font-style: normal;
+}
+
+dfn.minor {
+  font-weight: normal;
+  font-style: italic;
+}
+
+kbd {
+  border: 1px solid #CCC;
+  background-color: #F7F7F7;
+  color: #333;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  text-shadow: 0px 1px 0px #FFF;
+  white-space: nowrap;
+}
+
+pre {
+  background-color: #EEE;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+
+pre {
+  font-size: 9pt;
+}
+
+pre.assembly:before {
+  content: "Assembly";
+}
+
+pre.bazel:before {
+  content: "Bazel";
+}
+
+pre.cpp:before {
+  content: "C++";
+}
+
+pre.go:before {
+  content: "Go";
+}
+
+pre.gypsum:before {
+  content: "Gypsum";
+}
+
+pre.java:before {
+  content: "Java";
+}
+
+pre.pseudocode:before {
+  content: "Pseudocode";
+}
+
+pre.python:before {
+  content: "Python";
+}
+
+pre[class]:before {
+  position: relative;
+  top: 1px;
+  right: 1px;
+  float: right;
+  color: #808080;
+  font-weight: bold;
+  border-left: 1px solid #808080;
+  border-radius: 5px;
+  padding-left: 3px;
+}
+
+canvas {
+  box-shadow: 0px 0px 10px #666;
+}
+
+#page {
+  width: 850px;
+  margin: auto;
+  background: white;
+  box-shadow: 0px 0px 10px #666;
+}
+
+#header {
+  height: 246px;
+  background-image: url(../images/downtown-background.jpg);
+  background-size: 850px 246px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+   #header {
+    background-image: url(../images/downtown-background-2x.jpg);
+  }
+}
+
+#logo {
+  font-family: Verdana;
+  font-size: 24pt;
+  font-weight: normal;
+  color: #FFFFFF;
+  display: inline-block;
+  background-color: rgba(64, 64, 64, 0.75);
+  padding: 3px 10px 8px 10px;
+  margin-top: 30px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+#sidebar {
+  float: left;
+  width: 200px;
+  padding-top: 25px;
+  padding-left: 10px;
+  font-size: 9pt;
+}
+
+#sidebar h1 {
+  font-size: 15pt;
+  border-bottom: 1px dotted grey;
+}
+
+#sidebar ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#sidebar ul li {
+  padding-top: 0.5em;
+}
+
+#sidebar p.tags {
+  line-height: 17pt;
+}
+
+#all-posts {
+  font-size: 12pt;
+  font-style: italic;
+}
+
+#content {
+  margin-left: 200px;
+  padding: 25px;
+  font-size: 10pt;
+}
+
+#content hr {
+  height: 1px;
+  border: 1px dotted grey;
+}
+
+#content p {
+  font-family: Verdana;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* no longer used; remove when no longer cached */
+#content p.dates {
+  font-size: 9pt;
+  font-style: italic;
+  color: grey;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted gray;
+}
+
+#meta {
+  font-size: 9pt;
+  border-bottom: 1px dotted grey;
+}
+
+#meta p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+a {
+  color: #34b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #64b;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.logo {
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+a.logo:hover {
+  text-decoration: none;
+}
+
+a.tag {
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #dde;
+  border: 1px solid #34b;
+  border-radius: 10px;
+  padding: 0 4px 1px 4px;
+  white-space: nowrap;
+}
+
+a.tag:hover {
+  background-color: #eef;
+  border-color: #45c;
+  text-decoration: none;
+}
+
+a.tag:visited {
+  color: #34b;
+}
+
+a.admin, a.admin:visited {
+  color: #888;
+}
+
+a.admin:hover {
+  background-color: #888;
+  color: white;
+  text-decoration: none;
+}
+
+.description {
+  font-style: italic;
+  color: #666;
+}
+
+#footer {
+  clear: both;
+}
+
+.edit {
+  background: white;
+  width: 100%;
+  min-height: 12pt;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #aaa;
+}
